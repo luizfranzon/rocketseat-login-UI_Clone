@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: Roboto;
+
+    /* border: 1px red solid; */
+
+}
+
+body {
+    background-color: #121214;
+}
+
+main {
+    margin-top: 13em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: Roboto;
+    color: #e1e1e6;
+    font-size: 54px;
+
+    margin-right: 80px;
+
+}
+
+.logo {
+    margin-top: 110px;
+    margin-bottom: 70px;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+
+    background-color: #202024;
+    width: 500px;
+    height: px;
+    border-radius: 8px;
+}
+
+.login-section input {
+    background-color: #121214;
+    border: none;
+    color: white;
+    padding: 0px 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.login-section input:focus {
+    outline: 2px solid #8257e5;
+}
+
+.login-input {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.login-button {
+    background-color: #8257e5;
+    color: white;
+    font-weight: bolder;
+
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    border: none;
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color:rgb(168, 131, 255);
+    transition: background 0.2s ease 0s;
+}
+
+.purple {
+    color: rgb(130, 87, 230);
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.purple:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease 0s;
+}
+
+.password {
+    margin-bottom: 10px;
+}
+
+.signup {
+    color: #e1e1e6b0;
+    font-size: 15px;
+    padding: 8px;
+
+}
+
+.github-login-section {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    justify-content: center;
+
+    border-top: 1px solid #28272f;
+    padding-top: 50px;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.github-login {
+    color: white;
+}
+
+.github-login-button {
+    color: white;
+    font-weight: bolder;
+
+    align-items: center;
+
+    background-color: #29292e;
+    border-radius: 8px;
+    text-align: center;
+
+    padding: 15px 85px
+}
+
+.github-login-button:hover {
+    background-color: #8257e5;
+    transition: background 0.2s ease 0s;
+}
